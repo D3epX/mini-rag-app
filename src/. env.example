@@ -1,0 +1,9 @@
+APP_NAME="mini-RAG"
+APP_VERSION="0.1.0"
+# OpenAI API
+OPENAI_API_KEY="your_openai_api_key_here"
+#allowed files extensions for upload 
+FILE_ALLOWED_TYPES=["text/plein", "application/pdf"]
+FILE_MAX_SIZE=10#MB
+
+FILE_CHUNK_SIZE = 512000 #512kb
