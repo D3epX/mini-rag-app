@@ -12,7 +12,7 @@ to install the requirements run the following command
 
 # how to run the app to run the app run the following command 
 ```bash
- $ uvicorn main:app --reload 
+ $ uvicorn main:app --reload --host 0000 --port 12345
  ```
 
 # .env file for enviroments variables 
